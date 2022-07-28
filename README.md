@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# 리액트 주특기 1주차 과제
+
+## 트러블 슈팅
+
+구조는 잘 나누고 원리들은 다 이해하였지만 실제로 코드를 치면서 props, state, useState 훅을 잘 사용하지 못하는거같다. 일단 노출효과로 계속 보고 또 보고 해야겠다.<br> 눈 코딩 그만! 손 코딩 가즈아!!
