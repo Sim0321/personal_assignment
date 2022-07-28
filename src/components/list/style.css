@@ -1,0 +1,8 @@
+h2 {
+  text-align: left;
+}
+.list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

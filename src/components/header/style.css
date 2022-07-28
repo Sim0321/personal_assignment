@@ -1,0 +1,16 @@
+.header {
+  min-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 10px auto;
+  border: 1px solid #a1a1a1;
+  box-sizing: border-box;
+}
+h1 {
+  margin-left: 15px;
+}
+h3 {
+  margin-right: 15px;
+}

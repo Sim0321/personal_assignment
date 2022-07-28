@@ -1,0 +1,8 @@
+.layout {
+  /* background-color: pink; */
+  min-width: 800px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
