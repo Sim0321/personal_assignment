@@ -13,8 +13,8 @@ const Form = ({ todos, setTodos }) => {
   const [todo, setTodo] = useState(initialState);
   // console.log(todo);
 
-  const onChangeHandler = (event) => {
-    const { name, value } = event.target;
+  const onChangeHandler = (e) => {
+    const { name, value } = e.target;
     // console.log("name", name, "value", value);
     setTodo({ ...todo, [name]: value, id: todos.length + 1 });
   };
@@ -26,7 +26,7 @@ const Form = ({ todos, setTodos }) => {
   };
 
   return (
-    <form className="form">
+    <form className="form " onSubmit={onSubmitHandler}>
       <div className="input-group">
         <label className="form-label">제목</label>
         <input
@@ -46,9 +46,7 @@ const Form = ({ todos, setTodos }) => {
         />
       </div>
 
-      <button className="btn" onSubmit={onSubmitHandler}>
-        추가하기
-      </button>
+      <button className="btn">추가하기</button>
     </form>
   );
 };
